@@ -1,0 +1,23 @@
+._match{
+    align-items: center;
+    margin: 0 0 0 0;
+}
+._match > p{
+   color: rgb(75, 70, 70);
+}
+._team{
+    display: flex;
+    align-items: center;
+    place-items: center;
+    justify-content: space-between;
+}
+._team > h3{
+    font-size: 10 px;
+}
+._homeTeam{
+    margin-left: 10vw;
+ 
+}
+._awayTeam{ 
+    margin-right: 10vw;
+}

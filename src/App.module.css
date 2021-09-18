@@ -1,0 +1,19 @@
+._app {
+    margin:10vw 20vw 10vw 20vw;
+    place-items: center;
+    border: 2px solid red;
+    
+  }
+  ._header{
+    font-size: 10px;
+    margin: 5px;
+    text-align: left;
+  }
+  ._body{
+    margin:10vh 10vh 10vh 10vh;
+    text-align: center;
+  }
+  ._body> hr{
+    color: #eee;
+  }
+  
