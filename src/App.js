@@ -28,6 +28,9 @@ class App extends React.Component{
   render(){
    
     const data=this.state;
+    const matches=data.map((data) => {
+      <Match data={data} />
+    });
 
     return (
       <div className={styles._app}>
@@ -38,7 +41,7 @@ class App extends React.Component{
         <div className={styles._body}>
           <WeekPicker handleWeekChange={this.handleWeekChange} />
           <hr></hr>
-          <Match data={data} />
+         {matches}
         </div>
       </div>
     )
